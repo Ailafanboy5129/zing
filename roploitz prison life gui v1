@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ailafanboyss gui", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Tiger Admin", "gives you commands like kill all", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+end)
+
+--credits
+local credits = Window:NewTab("credits")
+local creditsSection = credits:NewSection("Kavo UI Library by xHeptc u fucktards")
+local creditsSection = credits:NewSection("Ailafanboy5129")
+local creditsSection = credits:NewSection("Valk_boi2")
